@@ -1,0 +1,95 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+	font-family: 'Kanit', sans-serif;
+}
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0px;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+
+.principal{
+	background: #cccccc;
+	margin-top: 5px;
+	padding: 30px;
+}
+
+p {
+	text-align: center;
+}
+
+#topo{
+	font-size: 40px;
+	text-align: center;
+	height: 150px;
+	border: 10px solid #000000;
+	padding-top: 20px;
+	margin-top: 40px;
+}
+
+#missao{
+	font-size: 20px;
+}
+
+.banner{
+	width: 100%;
+}
+
+.beneficios{
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+
+.imagembeneficios{
+	width: 50%;
+}
+
+.beneficios ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 20%;
+}
+
+.titulo-principal{
+	padding-left: 20px;
+}
+
+.titulo-centralizado{
+	text-align: center;
+}
+
+strong {
+	color: #FF0000;
+}
